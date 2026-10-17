@@ -17,11 +17,11 @@ def all_states():
 
 @app.route('/states/<id>', strict_slashes=False)
 def one_state(id):
-    """Displays a page with all citys of a state"""
+    """Displays a page with all cities of a state"""
     for state in storage.all(State).values():
         if state.id == id:
-            return render_template('9-states.html', states=state, mode='one')
-    return render_template('9-states.html', states=state, mode='none')
+            return render_template('9-states.html', state=state, mode='one')
+    return render_template('9-states.html', state=None, mode='none')
 
 
 @app.teardown_appcontext
