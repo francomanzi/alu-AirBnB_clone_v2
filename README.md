@@ -1,3 +1,4 @@
+# alu-AirBnB_clone_v2
 AirBnB clone - MySQL
 
 <center> <h1>HBNB - The Console</h1> </center>
@@ -12,7 +13,7 @@ center> <h2>General Use</h2> </center>
 ```
 /AirBnB_clone$ ./console.py
 ```
-4. When this command is run the following prompt should appear:
+4. Once this command is run the following prompt should appear:
 ```
 (hbnb)
 ```
